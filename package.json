@@ -1,10 +1,13 @@
 {
-  "name": "useful-hooks",
-  "version": "1.0.0",
+  "name": "@hjmsw/useful-hooks",
+  "version": "0.1.1",
   "description": "Useful hooks",
   "author": "hjmsw",
   "license": "MIT",
-  "repository": "hjmsw/useful-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjmsw/useful-hooks.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -46,5 +49,17 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "tslib": "^2.0.1",
     "typescript": "^3.2.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hjmsw/useful-hooks/issues"
+  },
+  "homepage": "https://github.com/hjmsw/useful-hooks#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "nextjs"
+  ]
 }
