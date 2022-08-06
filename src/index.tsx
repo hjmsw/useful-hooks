@@ -1,23 +1,5 @@
-import * as React from 'react';
+import useDarkMode from "./hooks/useDarkMode";
+import useOutsideClick from "./hooks/useOutsideClick";
+import useWindowSize from "./hooks/useWindowSize";
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState<{
-    counter: number;
-  }>({
-    counter: 0
-  });
-
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++;
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
-
-  return counter;
-};
+export { useDarkMode, useOutsideClick, useWindowSize };
