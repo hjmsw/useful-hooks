@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save useful-hooks
+npm install --save @hjmsw/useful-hooks
 ```
 
 ## Usage
